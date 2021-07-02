@@ -56,4 +56,15 @@ public class Car {
     public void setKmStates(List<KmState> kmStates) {
         this.kmStates = kmStates;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", type='" + type + '\'' +
+                ", age=" + age +
+                ", condition=" + condition +
+                ", kmStates=" + kmStates +
+                '}';
+    }
 }

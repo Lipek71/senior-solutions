@@ -26,4 +26,12 @@ public class KmState {
     public void setKm(int km) {
         this.km = km;
     }
+
+    @Override
+    public String toString() {
+        return "KmState{" +
+                "date=" + date +
+                ", km=" + km +
+                '}';
+    }
 }
