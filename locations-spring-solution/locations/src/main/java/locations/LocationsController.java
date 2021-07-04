@@ -4,20 +4,24 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 public class LocationsController {
 
-    private final List<Location> favouritePlace = new ArrayList<>(List.of(
-            new Location(1L, "Velence", 47.24, 18.64),
-            new Location(2L, "Herceghalom", 47.49, 18.74)));
+    private final LocationService locationService;
+
+    public LocationsController(LocationService locationService) {
+        this.locationService = locationService;
+    }
 
     @GetMapping("/locations")
-    public String  getLocations(){
+    public String getLocations() {
+
+        List<Location> favouritePlace = locationService.locations();
+
         String output = "";
-        for (Location location : favouritePlace){
+        for (Location location : favouritePlace) {
             output += location.toString();
         }
         output += LocalDateTime.now();
