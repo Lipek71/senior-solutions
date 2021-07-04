@@ -22,7 +22,7 @@ public class LocationsController {
 
         String output = "";
         for (Location location : favouritePlace) {
-            output += location.toString();
+            output += location.toString() + "<br>";
         }
         output += LocalDateTime.now();
 
