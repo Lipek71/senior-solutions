@@ -14,8 +14,8 @@ public class LocacionsIT {
 
     @Test
     void getLocations() {
-        String favouritePlaces = locationsController.getLocations();
+        String favouritePlaces = locationsController.getLocations().toString();
 
-        assertThat(favouritePlaces).startsWith("Location{id=1, name='Velence'");
+        assertThat(favouritePlaces).startsWith("[LocationDTO(id=1, name=Velence");
     }
 }
