@@ -40,4 +40,32 @@ public class LocationsService {
                 LocationDTO.class);
 
     }
+
+    public LocationDTO createFavouritePlace(CreateLocationCommand command) {
+        Location location = new Location(idGenerator.incrementAndGet()
+                , command.getName()
+                , command.getLat()
+                , command.getLon());
+        favouritePlaces.add(location);
+        return modelMapper.map(location, LocationDTO.class);
+
+    }
+
+    public LocationDTO updatePrice(long id, UpdateLocationCommand command) {
+        Location location = favouritePlaces.stream()
+                .filter(f -> f.getId() == id)
+                .findFirst().orElseThrow(() -> new IllegalArgumentException("Place not found: " + id));
+        location.setName(command.getName());
+        location.setLon(command.getLon());
+        location.setLat(command.getLat());
+        return modelMapper.map(location, LocationDTO.class);
+    }
+
+    public void deleteFavouritePlace(long id) {
+        Location location = favouritePlaces.stream()
+                .filter(i -> i.getId() == id)
+                .findFirst().orElseThrow(() -> new IllegalArgumentException("Place not found: " + id));
+        favouritePlaces.remove(location);
+
+    }
 }

@@ -1,5 +1,6 @@
 package locations;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
@@ -39,5 +40,23 @@ public class LocationsController {
     public LocationDTO getLocationById(@PathVariable("id") long id){
         return locationService.getFavouritePlaceById(id);
     }
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public LocationDTO createInstrument( @RequestBody CreateLocationCommand command) {
+        return locationService.createFavouritePlace(command);
+    }
+
+    @PutMapping("/{id}")
+    public LocationDTO updatePrice(@PathVariable("id") long id, @RequestBody UpdateLocationCommand command) {
+        return locationService.updatePrice(id, command);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deleteFavouritePlace(@PathVariable("id") long id) {
+        locationService.deleteFavouritePlace(id);
+    }
+
+
 
 }

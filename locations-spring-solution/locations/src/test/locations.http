@@ -1,0 +1,24 @@
+###
+POST http://localhost:8080/locations
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Dunaharaszti",
+  "lat": 47.34,
+  "lon": 19.08
+}
+
+###
+PUT http://localhost:8080/locations/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Dharaszti",
+  "lat": 47.34,
+  "lon": 19.08
+}
+
+###
+DELETE http://localhost:8080/locations/2
