@@ -89,7 +89,7 @@ public class MusicStoreController {
 
         Problem problem =
                 Problem.builder()
-                        .withType(URI.create("instrument data/ not-valid"))
+                        .withType(URI.create("instrument-data/not-valid"))
                         .withTitle("Validation error")
                         .withStatus(Status.BAD_REQUEST)
                         .withDetail(e.getMessage())

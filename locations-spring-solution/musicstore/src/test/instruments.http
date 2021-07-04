@@ -13,7 +13,7 @@ Accept: application/json
 
 {
   "brand": "",
-  "instrumentType": "ACOUSTIC_GUITAR",
+  "instrumentType": "ELECTRIC_GUITAR",
   "price": -75000
 }
 
