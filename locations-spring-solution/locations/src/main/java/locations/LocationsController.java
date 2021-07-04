@@ -14,7 +14,7 @@ public class LocationsController {
             new Location(1L, "Velence", 47.24, 18.64),
             new Location(2L, "Herceghalom", 47.49, 18.74)));
 
-    @GetMapping("/")
+    @GetMapping("/locations")
     public String  getLocations(){
         String output = "";
         for (Location location : favouritePlace){
