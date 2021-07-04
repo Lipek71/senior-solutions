@@ -9,19 +9,19 @@ import java.util.List;
 @RestController
 public class LocationsController {
 
-    private final LocationService locationService;
+    private final LocationsService locationService;
 
-    public LocationsController(LocationService locationService) {
+    public LocationsController(LocationsService locationService) {
         this.locationService = locationService;
     }
 
     @GetMapping("/locations")
     public String getLocations() {
 
-        List<Location> favouritePlace = locationService.locations();
+        List<Location> favouritePlaces = locationService.locations();
 
         String output = "";
-        for (Location location : favouritePlace) {
+        for (Location location : favouritePlaces) {
             output += location.toString() + "<br>";
         }
         output += LocalDateTime.now();
