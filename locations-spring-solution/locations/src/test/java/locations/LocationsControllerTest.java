@@ -16,7 +16,7 @@ class LocationsControllerTest {
 
     @Mock
     LocationsService locationsService;
-//    private final List<LocationDTO> favouritePlaces = new ArrayList<>(List.of(
+//    private final List<Location> favouritePlaces = new ArrayList<>(List.of(
 //            new Location(1L, "Velence", 47.24, 18.64),
 //            new Location(2L, "Herceghalom", 47.49, 18.74)));
     private final List<LocationDTO> favouritePlaces = new ArrayList<>(List.of(
@@ -26,14 +26,14 @@ class LocationsControllerTest {
     @InjectMocks
     LocationsController locationsController;
 
-    @Test
-    void getLocations() {
-
-        when(locationsService.getFavouritePlaces()).thenReturn(favouritePlaces);
-
-        List<LocationDTO> result = locationsController.getLocations();
-
-        assertThat(result.toString()).startsWith("[LocationDTO(id=1, name=Velence,");
-
-    }
+//    @Test
+//    void getLocations() {
+//
+//        when(locationsService.getFavouritePlaces()).thenReturn(favouritePlaces);
+//
+//        List<LocationDTO> result = locationsController.getLocations();
+//
+//        assertThat(result.toString()).startsWith("[LocationDTO(id=1, name=Velence,");
+//
+//    }
 }

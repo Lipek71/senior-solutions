@@ -12,10 +12,10 @@ public class LocacionsIT {
     @Autowired
     LocationsController locationsController;
 
-    @Test
-    void getLocations() {
-        String favouritePlaces = locationsController.getLocations().toString();
-
-        assertThat(favouritePlaces).startsWith("[LocationDTO(id=1, name=Velence");
-    }
+//    @Test
+//    void getLocations() {
+//        String favouritePlaces = locationsController.getLocations().toString();
+//
+//        assertThat(favouritePlaces).startsWith("[LocationDTO(id=1, name=Velence");
+//    }
 }

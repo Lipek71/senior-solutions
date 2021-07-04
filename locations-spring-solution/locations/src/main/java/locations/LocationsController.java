@@ -1,11 +1,10 @@
 package locations;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/locations")
@@ -32,8 +31,13 @@ public class LocationsController {
 //    }
 
     @GetMapping()
-    public List<LocationDTO> getLocations() {
-        return locationService.getFavouritePlaces();
+    public List<LocationDTO> getLocations(@RequestParam Optional<String> place) {
+        return locationService.getFavouritePlaces(place);
+    }
+
+    @GetMapping("/{id}")
+    public LocationDTO getLocationById(@PathVariable("id") long id){
+        return locationService.getFavouritePlaceById(id);
     }
 
 }
