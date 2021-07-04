@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import org.zalando.problem.Problem;
 import org.zalando.problem.Status;
 
+import javax.validation.Valid;
 import java.net.URI;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -48,12 +49,12 @@ public class LocationsController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public LocationDTO createInstrument( @RequestBody CreateLocationCommand command) {
+    public LocationDTO createInstrument(@Valid @RequestBody CreateLocationCommand command) {
         return locationService.createFavouritePlace(command);
     }
 
     @PutMapping("/{id}")
-    public LocationDTO updatePrice(@PathVariable("id") long id, @RequestBody UpdateLocationCommand command) {
+    public LocationDTO updatePrice(@PathVariable("id") long id,@Valid @RequestBody UpdateLocationCommand command) {
         return locationService.updatePrice(id, command);
     }
 

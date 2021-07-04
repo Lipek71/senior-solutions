@@ -20,8 +20,8 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Dharaszti",
-  "lat": 47.34,
+  "name": "Dunaharaszti",
+  "lat": 97.34,
   "lon": 19.08
 }
 
