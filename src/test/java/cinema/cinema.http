@@ -6,9 +6,27 @@ POST http://localhost:8080/api/cinema
 Content-Type: application/json
 
 {
-  "title": "",
+  "title": "Teszt1",
   "date" : [2021,6,30,12,30],
   "maxReservation": 120
 }
 
 ###
+POST http://localhost:8080/api/cinema/1/reserve
+Content-Type: application/json
+
+{
+  "reservation": 100
+}
+
+###
+PUT http://localhost:8080/api/cinema/2
+Content-Type: application/json
+
+{
+  "date" : [2021,7,10,16,45]
+}
+
+###
+DELETE http://localhost:8080/api/cinema
+

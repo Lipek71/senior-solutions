@@ -12,7 +12,6 @@ import org.zalando.problem.Problem;
 import org.zalando.problem.Status;
 
 import java.net.URI;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -40,7 +39,7 @@ public class CinemaControllerRestIT {
                         new CreateMovieCommand("Titanic", LocalDateTime.of(2021, 6, 30, 12, 30), 120),
                         MovieDTO.class);
 
-
+        System.out.println(result.toString());
         assertEquals("Titanic", result.getTitle());
         assertEquals(2021, result.getDate().getYear());
         assertEquals(120, result.getFreeSpaces());
