@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-# JUnit feladatok
-
-Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
-
-* [ ] Bevezetés a JUnit használatába
-* [ ] Futtatás Mavennel
-* [ ] Tesztesetek életciklusa
-* [ ] Elnevezések
-* [ ] Assert
-* [ ] Kivételkezelés és timeout tesztelése
-* [ ] Egymásba ágyazás
-* [ ] Tagek és metaannotációk használata
-* [ ] Tesztesetek ismétlése
-* [ ] Paraméterezett tesztek
-* [ ] Dinamikus tesztek
-* [ ] Tempdirectory extension
-* [ ] JUnit 4 és 5 használata
-* [ ] Hamcrest
-* [ ] Saját Hamcrest matcher implementálása
-* [ ] AssertJ
-* [ ] AssertJ kiterjeszthetőség
-* [ ] Mockito
-* [ ] Teszt lefedettség
-=======
 
 
 
@@ -92,7 +67,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
   <meta name="viewport" content="width=device-width">
   
-  <title>strukt-val-java-public/junit-feladatok.md at master · Training360/strukt-val-java-public</title>
+  <title>strukt-val-java-public/boot-feladatok.md at master · Training360/strukt-val-java-public</title>
     <meta name="description" content="Strutktúraváltás Junior Vállalati Java Backend fejlesztő - Training360/strukt-val-java-public">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -106,11 +81,11 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/67730749/ws?session=eyJ2IjoiVjMiLCJ1Ijo2NzczMDc0OSwicyI6NzEzMzgxMjgyLCJjIjoyMTM3MjU1OTg5LCJ0IjoxNjI1NDc2MjAxfQ==--4cffaeb8ce3d2c1b5ddfbc012a041a9f0ca90787056841aee8a9ebc451708db1" data-refresh-url="/_alive" data-session-id="94b5b5ca06eff2c3cba3b925553761eca2c46f40d7bb917d1cf8e9613d8c8492">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/67730749/ws?session=eyJ2IjoiVjMiLCJ1Ijo2NzczMDc0OSwicyI6NzEzMzgxMjgyLCJjIjozMjAzMTU3NzcwLCJ0IjoxNjI1NDc2MTY4fQ==--9a8f20f92b66748d35978f7ae1476c8f8d3844021e1dc19454960990e1d8b59d" data-refresh-url="/_alive" data-session-id="94b5b5ca06eff2c3cba3b925553761eca2c46f40d7bb917d1cf8e9613d8c8492">
     <link rel="shared-web-socket-src" href="/socket-worker-3f088aa2.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="EF8C:63CE:14C107F:1570493:60E2CC48" data-pjax-transient="true" /><meta name="html-safe-nonce" content="0991e30ee36b624cb43ee16edc50fcbd3f37421e89f80829a62a88a6c5a83771" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9UcmFpbmluZzM2MC9zdHJ1a3QtdmFsLWphdmEtcHVibGljIiwicmVxdWVzdF9pZCI6IkVGOEM6NjNDRToxNEMxMDdGOjE1NzA0OTM6NjBFMkNDNDgiLCJ2aXNpdG9yX2lkIjoiMTQzMTQwNDE1MzQ1NTczNTc5NyIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="6ac27d8ddb0894693bac497ed36631973b5c3b31f2426e8305736b5d208f70de" data-pjax-transient="true" />
+  <meta name="request-id" content="EF8C:63CE:14BE60E:156D8FB:60E2CC40" data-pjax-transient="true" /><meta name="html-safe-nonce" content="0991e30ee36b624cb43ee16edc50fcbd3f37421e89f80829a62a88a6c5a83771" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9UcmFpbmluZzM2MC9zdHJ1a3QtdmFsLWphdmEtcHVibGljIiwicmVxdWVzdF9pZCI6IkVGOEM6NjNDRToxNEJFNjBFOjE1NkQ4RkI6NjBFMkNDNDAiLCJ2aXNpdG9yX2lkIjoiMTQzMTQwNDE1MzQ1NTczNTc5NyIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="d569d255a205f3d4070ccc47d7f4950a34999504e5de2f7e9652fc27f79a63aa" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:372511085" data-pjax-transient>
 
@@ -149,7 +124,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="MzEzN2ZmNjllNzY4YTAzMDZjMWM3ZGZmNDk0NzI5YTdhMDYwNTJmMTE4YmU5NjFiMDI0YTdiMWNiNjAwN2E4YXx7InJlbW90ZV9hZGRyZXNzIjoiODEuMTgzLjIzMy45NCIsInJlcXVlc3RfaWQiOiJFRjhDOjYzQ0U6MTRDMTA3RjoxNTcwNDkzOjYwRTJDQzQ4IiwidGltZXN0YW1wIjoxNjI1NDc2MjAxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="MGY5YmJiMzI1NWYxYjhjNzUwM2MxZmZhZDgxNDU1ZGE2ZTk3MGY0ODBhNjc3MjcwMTAwNjFmMzBhYWJiYzdjM3x7InJlbW90ZV9hZGRyZXNzIjoiODEuMTgzLjIzMy45NCIsInJlcXVlc3RfaWQiOiJFRjhDOjYzQ0U6MTRCRTYwRToxNTZEOEZCOjYwRTJDQzQwIiwidGltZXN0YW1wIjoxNjI1NDc2MTY4LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,GITHUB_TOKEN_PERMISSION">
 
@@ -163,7 +138,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
 
 
-    <link rel="canonical" href="https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -243,7 +218,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
             spellcheck="false"
             autocomplete="off"
           >
-          <input type="hidden" value="YECQHIEruslhBXfl/6hdNDpBIDCxX/+n8PUtBWC0PahXZmOOLDMHiU3SNhWYqjhv5WCKFucr5H6E8ig6tRtSbg==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="94EIH2AwMd7YU7ktuDpox3u/vJsfcQUAGNJaR/YpaiHAp/uNzSiMnvSE+N3fOA2cpJ4WvUkFHtls1V94I4YF5w==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
               <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -422,7 +397,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;Lipek71&quot;,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="d5c95f95006853290d71f7b80df2ff5ab19190c18e78557bb87cb2fb74633354" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;Lipek71&quot;,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="6022dce52e1001f86361cfc890012f72631be37d8e3f9ed7d8a9def3b4865ffd" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" href="/settings/profile">
       Settings
@@ -431,7 +406,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
       <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/67730749?s=40&amp;v=4" width="20" height="20" alt="@Lipek71" />
       Lipek71
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ULb+cZ7gzWMQUJc0uHpMI+Mn/ZFP/mQrzQzIpE4MuGu0lLUR/1Pc/RQc+0jbAgnvM4M1npPrzlIyHvm4h8CVFg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pBpkegJl9wcOJ8bdvGSmePKS8Eg1OwfENZ1UFmLEsnRAOC8aY9bmmQprqqHfHOO0IjY4R+kurb3Kj2UKqwifCQ==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -455,7 +430,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6Njc3MzA3NDkiLCJ0IjoxNjI1NDc2MjAxfQ==--2c04d2c44710557f34b717a93a5db0d66fc6cd0309d30fd54db61a318f6ed0de">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6Njc3MzA3NDkiLCJ0IjoxNjI1NDc2MTY4fQ==--820f58dce7c925bf8f1825bdd570d5db7e1993a620b86c9b8d9ba5afcba9f7eb">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -627,7 +602,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="0b68f908545ca736568048203eaa15173bb97ada1254d834af85654020c11c0f" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="3073952016900fcc8b26818cd50868196c65fcddb5b617ca0e7e8763f8c48076" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -679,7 +654,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JP7U+jvFCs6lqei06ddvCPk2gGzDvN0aDbfgpMQs7LHk7RK3V+GG5mQ0xW3kNxYwwgWB7XLyEJDQxloa4GYTKg==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QIcUkgqdF3hwAKjp76aeztTfquWTJ8Oy0Q+s9SS7mdmAlNLfZrmbULGdhTDiRuf27+yrZCJpDjgMfhZLAPFmQg==" />
 
                 <input type="hidden" name="repository_id" value="372511085">
 
@@ -791,7 +766,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6kXHOLQKa6bIPeJ4i9C+6jy1C961OBbV5lcaGTXZN2MqVgF12C7njgmgz6GGMMfSB4YKXwR22187JqCnEZPI+A==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="IItaJYlWqvE9/n8aa2sVuZzwxxk3hs37kRwpnu5dy4fgmJxo5XIm2fxjUsNmi2yBp8PGmIbIAHFMbZMgyhc0HA==" />
 
               <input type="hidden" name="repository_id" value="372511085">
 
@@ -950,9 +925,9 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/Training360/strukt-val-java-public/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="X1m7u45X9qQvlNArrk7QCxuODpX5QoFsxkdqEqWUwpIEMHmLkNUXvp1656JAOXprHiF+NUpT355n4v2zeawZYQ==" />
+    <form class="starred js-social-form" action="/Training360/strukt-val-java-public/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="aYYX7eeTZ8iF0Bj3BspLTNUGu/AdFfkjNUrt/GuzVHIy79Xd+RGG0jc+L37oveEs0KnLUK4Ep9GU73pdt4uPgQ==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar Training360/strukt-val-java-public" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="050d5f2319311f8e2786381b750141afd4d5734d5e5ea693af844a8d40116669" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star-fill mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar Training360/strukt-val-java-public" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="be074babf62e1d34952473084b17757e799a98cffd8e04a80d4d00b71dfc2a79" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star-fill mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg>
         <span data-view-component="true">
@@ -962,9 +937,9 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/Training360/strukt-val-java-public/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="2M7s7OVSwTseDiltOq8i/tnpbE6VIJzV65WaKQZzxW0UukPSQT5cqGfh9Xuw2FZRfWgsoL4bmxvkWIRu9a1nmA==" />
+    <form class="unstarred js-social-form" action="/Training360/strukt-val-java-public/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="IwYoFCuUoPuyuMwaS8/4hoqLZEzy9+Q6BOZ57crZsqzvcocqj/g9aMtXEAzBuIwpLgokotnM4/QLK2eqOQcQWQ==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star Training360/strukt-val-java-public" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="8aba6ba5b3a4d92e0ce822fb705ccbf799bcadd44b336b31ed95c17f51b6b190" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star Training360/strukt-val-java-public" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="28a06e1a3bb23eb8579e22834700edc443008937560bfe0cd3a6fbadd8bfd319" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-star mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg>
         <span data-view-component="true">
@@ -978,8 +953,8 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Training360/strukt-val-java-public/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7w1NXWr30SzktgJRKln6JMu+v/8dL3XzqhkCIuA9U8y0lfvExRNVaT1XWgTzgbCbqzWiyosIpBMqp4C30KbEJA==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="77a5d3ef05a96e59c866243ac144270f107d9da88ed9ad49d6d3dfb03a5bc258" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Training360/strukt-val-java-public to your account" aria-label="Fork your own copy of Training360/strukt-val-java-public to your account">                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-repo-forked">
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Training360/strukt-val-java-public/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="AfW5H2FOeKJBKc/Ab3Hrd+jQMqZM4+lADHoQs3RLWw9abQ+Gzqr855jIl5W2qaHIiFsvk9rEOKCMxJImRNDM5w==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="700b419d7661b024b0494f6f97d8bde370f42cb1ab39a34136dd62b0b6e4e48e" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Training360/strukt-val-java-public to your account" aria-label="Fork your own copy of Training360/strukt-val-java-public to your account">                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-repo-forked">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>
                 Fork
@@ -1132,9 +1107,9 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Training360/strukt-val-java-public/blob/a12ef8e2740554ee9214aa39aa8ee4a7f912fe7f/junit-feladatok.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Training360/strukt-val-java-public/blob/a12ef8e2740554ee9214aa39aa8ee4a7f912fe7f/boot-feladatok.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:a2637903f6e9130b78ef654d6e7f2f112bb32aa969b840a244e144d934bdf3fc -->
+    <!-- blob contrib key: blob_contributors:v22:857139ae0cb131bb7c6d10cfff8294b121de8afa148ac328ba288440893cd46c -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1218,7 +1193,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/Training360/strukt-val-java-public/blob/{{ urlEncodedRefName }}/junit-feladatok.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/Training360/strukt-val-java-public/blob/{{ urlEncodedRefName }}/boot-feladatok.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1258,7 +1233,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/Training360/strukt-val-java-public/blob/{{ urlEncodedRefName }}/junit-feladatok.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/Training360/strukt-val-java-public/blob/{{ urlEncodedRefName }}/boot-feladatok.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1289,7 +1264,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/Training360/strukt-val-java-public"><span>strukt-val-java-public</span></a></span></span><span class="separator">/</span><strong class="final-path">junit-feladatok.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/Training360/strukt-val-java-public"><span>strukt-val-java-public</span></a></span></span><span class="separator">/</span><strong class="final-path">boot-feladatok.md</strong>
       </h2>
       <a href="/Training360/strukt-val-java-public/find/master"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1310,7 +1285,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 </summary>
   <div data-view-component="true">          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="2d50c926ae7ce2444a1cddc1bd3432d5f7441052a62b439532aa000610016057" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/Training360/strukt-val-java-public/find/master">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:372511085,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md&quot;,&quot;user_id&quot;:67730749}}" data-hydro-click-hmac="41d37525314d70c895cf471f08848e31f0e6279f7e00988cc2bad58dd3d36ac4" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/Training360/strukt-val-java-public/find/master">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1324,12 +1299,12 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
             </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="junit-feladatok.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="boot-feladatok.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
             <li>
-              <clipboard-copy value="https://github.com/Training360/strukt-val-java-public/blob/a12ef8e2740554ee9214aa39aa8ee4a7f912fe7f/junit-feladatok.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
+              <clipboard-copy value="https://github.com/Training360/strukt-val-java-public/blob/a12ef8e2740554ee9214aa39aa8ee4a7f912fe7f/boot-feladatok.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
                 </span>
@@ -1343,17 +1318,80 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/Training360/strukt-val-java-public/contributors/master/junit-feladatok.md" class="commit-loader">
-        <div class="Box-header Box-header--blue d-flex flex-items-center">
-          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
-          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
-        </div>
+      
+  <div class="Box-header Box-header--blue Details js-details-container">
+      <div class="d-flex flex-items-center">
+        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/vicziani/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/vicziani"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/1205411?s=48&amp;v=4" width="24" height="24" alt="@vicziani" /></a>
+        </span>
+        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+          <div class="css-truncate css-truncate-overflow">
+            <a class="text-bold Link--primary" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/vicziani/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/vicziani">vicziani</a>
 
-        <div class="Box-body d-flex flex-items-center" >
-          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
-          <span class="color-text-danger h6 loader-error">Cannot retrieve contributors at this time</span>
+              <span class="markdown-title">
+                <a data-pjax="true" title="Gyakorlati feladatok" class="Link--secondary" href="/Training360/strukt-val-java-public/commit/94dfc57207b704fbc0d7d08a8d738833a88e94d8">Gyakorlati feladatok</a>
+              </span>
+          </div>
+
+
+          <span class="ml-2">
+            <include-fragment accept="text/fragment+html" src="/Training360/strukt-val-java-public/commit/94dfc57207b704fbc0d7d08a8d738833a88e94d8/rollup?direction=e" class="d-inline"></include-fragment>
+          </span>
         </div>
-</include-fragment>    </div>
+        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end color-text-secondary no-wrap">
+          <span class="d-none d-md-inline">
+            <span>Latest commit</span>
+            <a class="text-small text-mono Link--secondary" href="/Training360/strukt-val-java-public/commit/94dfc57207b704fbc0d7d08a8d738833a88e94d8" data-pjax>94dfc57</a>
+            <span itemprop="dateModified"><relative-time datetime="2021-06-30T14:27:40Z" class="no-wrap">Jun 30, 2021</relative-time></span>
+          </span>
+
+          <a data-pjax href="/Training360/strukt-val-java-public/commits/master/boot-feladatok.md" class="ml-3 no-wrap Link--primary no-underline">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-history text-gray">
+    <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
+</svg>
+            <span class="d-none d-sm-inline">
+              <strong>History</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
+    <details class="details-reset details-overlay details-overlay-dark lh-default color-text-primary float-left mr-3" id="blob_contributors_box">
+      <summary class="Link--primary">
+        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-people text-gray">
+    <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
+</svg>
+        <strong>1</strong>
+        
+        contributor
+      </summary>
+      <details-dialog
+        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+        aria-label="Users who have contributed to this file"
+        src="/Training360/strukt-val-java-public/contributors-list/master/boot-feladatok.md" preload>
+        <div class="Box-header">
+          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+          </button>
+          <h3 class="Box-title">
+            Users who have contributed to this file
+          </h3>
+        </div>
+        <include-fragment>
+          <svg style="box-sizing: content-box; color: var(--color-icon-primary);" viewBox="0 0 16 16" fill="none" data-view-component="true" width="32" height="32" class="my-3 mx-auto d-block anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+        </include-fragment>
+      </details-dialog>
+    </details>
+  </div>
+    </div>
 
 
 
@@ -1378,21 +1416,21 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      23 lines (21 sloc)
+      33 lines (31 sloc)
       <span class="file-info-divider"></span>
-    629 Bytes
+    1.04 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
 
     <div class="BtnGroup">
-      <a href="/Training360/strukt-val-java-public/raw/master/junit-feladatok.md" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
+      <a href="/Training360/strukt-val-java-public/raw/master/boot-feladatok.md" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
   
   Raw
   
 
 </a>
-        <a href="/Training360/strukt-val-java-public/blame/master/junit-feladatok.md" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
+        <a href="/Training360/strukt-val-java-public/blame/master/boot-feladatok.md" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
   
   Blame
   
@@ -1403,7 +1441,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
              data-platforms="windows,mac"
-             href="x-github-client://openRepo/https://github.com/Training360/strukt-val-java-public?branch=master&amp;filepath=junit-feladatok.md"
+             href="x-github-client://openRepo/https://github.com/Training360/strukt-val-java-public?branch=master&amp;filepath=boot-feladatok.md"
              aria-label="Open this file in GitHub Desktop"
              data-ga-click="Repository, open with desktop">
               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-device-desktop">
@@ -1411,7 +1449,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 </svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Training360/strukt-val-java-public/edit/master/junit-feladatok.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YV9E2rofyNi2HsdH/3ShQJ3xA8aH7GbZoW/aaMeVEin5wwQkr/bYP3Tpu/Fe5zfye1LdO2qu0sM3ajDVfylZKw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Training360/strukt-val-java-public/edit/master/boot-feladatok.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="rIfdnoLJoD6AUXx3Ufzjjh+yuDmxGehdrQ/yON6qtXt+TOiowhkmcGnsMO1YabiBFNi0zrT8RgYSWH/ODaKeCA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-pencil">
@@ -1419,7 +1457,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 </svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Training360/strukt-val-java-public/delete/master/junit-feladatok.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="IKsy3wo8tvNqzFdUF2jrlHW6riDJFUqVR8kmIMQWtNNr1VIFdLoOZ79bHzFiTz4KzTcNqh0CEu4KSUJ0A/LjlA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Training360/strukt-val-java-public/delete/master/boot-feladatok.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Ev4e4JCJWG6eboFNP6kKPVk5joY4oMcMMlUPMyDlQAfPiJp90kgq0ro+zst750xE+DSnr2pVLfJTumj9oYoIAw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete the file in your fork of this project" data-disable-with>
               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-trash">
@@ -1441,28 +1479,28 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/Training360/strukt-val-java-public?branch=master&amp;filepath=junit-feladatok.md"
+                   href="x-github-client://openRepo/https://github.com/Training360/strukt-val-java-public?branch=master&amp;filepath=boot-feladatok.md"
                    data-ga-click="Repository, open with desktop">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/Training360/strukt-val-java-public/raw/master/junit-feladatok.md">
+            <a class="dropdown-item" href="/Training360/strukt-val-java-public/raw/master/boot-feladatok.md">
               View raw
             </a>
           </li>
             <li>
-              <a class="dropdown-item" href="/Training360/strukt-val-java-public/blame/master/junit-feladatok.md">
+              <a class="dropdown-item" href="/Training360/strukt-val-java-public/blame/master/boot-feladatok.md">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/Training360/strukt-val-java-public/edit/master/junit-feladatok.md">Edit file</a>
+                <a class="dropdown-item" href="/Training360/strukt-val-java-public/edit/master/boot-feladatok.md">Edit file</a>
               </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/Training360/strukt-val-java-public/delete/master/junit-feladatok.md">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/Training360/strukt-val-java-public/delete/master/boot-feladatok.md">Delete file</a>
               </li>
         </ul>
       </details>
@@ -1471,28 +1509,38 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
 
         <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-junit-feladatok" class="anchor" aria-hidden="true" href="#junit-feladatok"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>JUnit feladatok</h1>
+    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-spring-boot-feladatok" class="anchor" aria-hidden="true" href="#spring-boot-feladatok"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Spring Boot feladatok</h1>
 <p>Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!</p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Bevezetés a JUnit használatába</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Futtatás Mavennel</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Tesztesetek életciklusa</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Elnevezések</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Assert</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Kivételkezelés és timeout tesztelése</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Egymásba ágyazás</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Tagek és metaannotációk használata</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Tesztesetek ismétlése</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Paraméterezett tesztek</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Dinamikus tesztek</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Tempdirectory extension</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JUnit 4 és 5 használata</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Hamcrest</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Saját Hamcrest matcher implementálása</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> AssertJ</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> AssertJ kiterjeszthetőség</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Mockito</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Teszt lefedettség</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Bevezetés a Spring Framework és Spring Boot használatába</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Bevezetés a Spring Boot használatába</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Spring Beanek</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Konfiguráció Javaban</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Build és futtatás Mavennel</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Build és futtatás Gradle használatával</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Unit és integrációs tesztek</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Developer Tools</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Twelve Factor App</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Bevezetés a Docker használatába</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Java alkalmazások Dockerrel</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Docker Layers</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Feltöltés GIT repository-ba</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> REST webszolgáltatások - GET művelet</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> GET műveletek paraméterezése</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> REST webszolgáltatások POST és DELETE művelet</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Státuszkódok és hibakezelés</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Integrációs tesztelés</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Swagger UI</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Tesztelés Rest Assured használatával</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Rest Assured séma validáció</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Content Negotiation</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Validáció</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Spring Boot konfiguráció</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Spring Boot naplózás</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Spring JdbcTemplate</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Spring Data JPA</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> MariaDB</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Integrációs tesztelés</li>
 </ul>
 </article>
   </div>
@@ -1520,10 +1568,10 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
      hidden
      data-tagsearch-url="/Training360/strukt-val-java-public/find-definition"
      data-tagsearch-ref="master"
-     data-tagsearch-path="junit-feladatok.md"
+     data-tagsearch-path="boot-feladatok.md"
      data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:372511085,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/junit-feladatok.md&quot;,&quot;user_id&quot;:67730749}}"
-     data-hydro-click-hmac="cb76106c763f8e0c90de82ea900c3bfb2ed50962f54627d2f0f1dc3b6cd3ff35">
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:372511085,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Training360/strukt-val-java-public/blob/master/boot-feladatok.md&quot;,&quot;user_id&quot;:67730749}}"
+     data-hydro-click-hmac="91b97707c29992f360be724d38a1e38ec0ecb343d92f26e48ac601fd39d61a66">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
@@ -1637,4 +1685,3 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
   </body>
 </html>
 
->>>>>>> f5d9306... Add files via upload
