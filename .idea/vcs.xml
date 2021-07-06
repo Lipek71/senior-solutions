@@ -2,7 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/locations-solution" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/locations-solution/empapp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/locations-solution/teszt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/locations-solution/teszt/demos/javax-mcr-public" vcs="Git" />
   </component>
 </project>

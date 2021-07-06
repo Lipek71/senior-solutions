@@ -35,7 +35,8 @@ public class LocationsService {
 
     public LocationDTO getFavouritePlaceById(long id) {
         return modelMapper.map(favouritePlaces.stream()
-                .filter(f -> f.getId() == id).findAny()
+                .filter(f -> f.getId() == id)
+                .findAny()
                 .orElseThrow(() -> new IllegalArgumentException("Place not found " + id)),
                 LocationDTO.class);
 
@@ -54,7 +55,8 @@ public class LocationsService {
     public LocationDTO updatePrice(long id, UpdateLocationCommand command) {
         Location location = favouritePlaces.stream()
                 .filter(f -> f.getId() == id)
-                .findFirst().orElseThrow(() -> new IllegalArgumentException("Place not found: " + id));
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Place not found: " + id));
         location.setName(command.getName());
         location.setLon(command.getLon());
         location.setLat(command.getLat());
