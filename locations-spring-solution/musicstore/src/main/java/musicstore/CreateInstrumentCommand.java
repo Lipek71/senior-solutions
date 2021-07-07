@@ -13,9 +13,9 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class CreateInstrumentCommand {
 
-    @NotBlank(message = "Name can't be empty")
+    @NotBlank(message = "Name can't be empty!")
     private String brand;
     private InstrumentType instrumentType;
-    @Positive(message = "Price must be positive")
+    @Positive(message = "Price must be positive!")
     private int price;
 }

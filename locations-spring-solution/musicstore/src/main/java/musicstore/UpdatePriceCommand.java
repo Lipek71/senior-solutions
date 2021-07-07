@@ -10,6 +10,6 @@ import javax.validation.constraints.Positive;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UpdatePriceCommand {
-    @Positive(message = "Price must be positive")
+    @Positive(message = "Price must be positive!")
     private int price;
 }

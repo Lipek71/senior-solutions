@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0302eb83-1c37-45f6-a625-2246e3bb80dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../locations-spring-solution/locations/src/main/java/locations/LocationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locations-spring-solution/locations/src/main/java/locations/LocationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../locations-spring-solution/locations/src/main/java/locations/LocationsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locations-solution/cars/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../locations-solution/cars/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locations-solution/cars/src/main/java/com/training360/cars/CarsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../locations-solution/cars/src/main/java/com/training360/cars/CarsApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../locations-spring-solution/musicstore/pom.xml" />
   </component>
   <component name="RunManager">
     <configuration name="MusicstoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -47,6 +48,7 @@
       <updated>1625222147275</updated>
       <workItem from="1625222148507" duration="127000" />
       <workItem from="1625403840650" duration="52000" />
+      <workItem from="1625676830479" duration="32000" />
     </task>
     <servers />
   </component>
