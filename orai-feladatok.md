@@ -11,7 +11,7 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 * [X] 2021.06.22. - Haszáltautó
 * [ ] 2021.06.25. - Bicikli sharing
 * [X] 2021.06.29. - Filmek, RESTful webszolgáltatások gyakorlása (movie)
-=======
+========
 
 
 
