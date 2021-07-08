@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # JUnit feladatok
 
 Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
@@ -22,4 +21,3 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 * [ ] AssertJ kiterjeszthetőség
 * [ ] Mockito
 * [ ] Teszt lefedettség
-=======
