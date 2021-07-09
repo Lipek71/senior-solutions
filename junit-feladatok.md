@@ -3,7 +3,7 @@
 Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
 * [X] Bevezetés a JUnit használatába 
-* [ ] Futtatás Mavennel
+* [X] Futtatás Mavennel
 * [ ] Tesztesetek életciklusa
 * [ ] Elnevezések
 * [ ] Assert
