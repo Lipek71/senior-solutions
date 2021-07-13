@@ -4,8 +4,8 @@ Kérlek jelöld be, hogy melyik gyakorlati feladatokat oldottad meg!
 
 * [X] Bevezetés a JUnit használatába 
 * [X] Futtatás Mavennel
-* [ ] Tesztesetek életciklusa
-* [ ] Elnevezések
+* [X] Tesztesetek életciklusa
+* [X] Elnevezések
 * [ ] Assert
 * [ ] Kivételkezelés és timeout tesztelése
 * [ ] Egymásba ágyazás
