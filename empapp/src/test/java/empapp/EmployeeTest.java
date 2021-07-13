@@ -6,7 +6,8 @@ import org.junit.jupiter.api.condition.OS;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+//@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 class EmployeeTest {
 
     Employee employee;
@@ -28,7 +29,8 @@ class EmployeeTest {
 
     @Test
     @Order(1)
-    @DisabledOnOs(OS.WINDOWS)
+    //@DisabledOnOs(OS.WINDOWS)
+    @DisplayName("Test age calculation with positive numbar")
     void testGetAge(){
         //Given
         //Employee employee = new Employee("John Doe", 1970);
@@ -43,8 +45,8 @@ class EmployeeTest {
 
     @Test
     @Order(2)
-    @Disabled("Until fix 123")
-    void testGetAgeWithZero(){
+    //@Disabled("Until fix 123")
+    void test_Get_Age_With_Zero(){
         assertEquals(0,  employee.getAge(1970));
         System.out.println("TC2");
     }
