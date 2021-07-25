@@ -23,5 +23,4 @@ public class NavApplication {
         return new ObjectMapper().findAndRegisterModules();
     }
 
-//Nav
 }
