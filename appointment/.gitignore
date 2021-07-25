@@ -18,6 +18,7 @@ target/
 *.iws
 *.iml
 *.ipr
+java-jpa-public
 
 ### NetBeans ###
 /nbproject/private/
