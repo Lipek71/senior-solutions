@@ -4,7 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/java-jpa-public" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/locations-solution" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/locations-solution/empapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/locations-solution/empapp" vcs="" />
     <mapping directory="$PROJECT_DIR$/locations-solution/teszt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/locations-solution/teszt/demos/javax-mcr-public" vcs="Git" />
   </component>
