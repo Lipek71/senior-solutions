@@ -1,4 +1,4 @@
-package author;
+package movie;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class AuthorApplication {
+public class MovieApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AuthorApplication.class, args);
+        SpringApplication.run(MovieApplication.class, args);
     }
 
     @Bean
@@ -29,8 +29,8 @@ public class AuthorApplication {
     public OpenAPI customOpenAPI(){
         return new OpenAPI()
                 .info(new Info()
-                        .title("Author API")
+                        .title("Movie API")
                         .version("1.0.0")
-                        .description("Operation with authors"));
+                        .description("Operation with movies"));
     }
 }
